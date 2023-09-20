@@ -1,0 +1,22 @@
+{
+  "name": "theming",
+  "version": "1.0.0",
+  "description": "This project is create for theming",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "Bootstrap",
+    "Sass",
+    "and",
+    "jQuery"
+  ],
+  "author": "Chandeep Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.1"
+  }
+}
