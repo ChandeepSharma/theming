@@ -8,35 +8,35 @@
   background-color: black;
 }
 
-.blue h5, .blue .h5, .blue h3, .blue .h3, .blue p, .blue [fill=black] {
+.primary h5, .primary .h5, .primary h3, .primary .h3, .primary p, .primary [fill=black] {
   color: blue;
   fill: blue;
 }
-.blue a {
+.primary a {
   background-color: blue;
 }
 
-.green h5, .green .h5, .green h3, .green .h3, .green p, .green [fill=black] {
+.success h5, .success .h5, .success h3, .success .h3, .success p, .success [fill=black] {
   color: green;
   fill: green;
 }
-.green a {
+.success a {
   background-color: green;
 }
 
-.red h5, .red .h5, .red h3, .red .h3, .red p, .red [fill=black] {
+.danger h5, .danger .h5, .danger h3, .danger .h3, .danger p, .danger [fill=black] {
   color: red;
   fill: red;
 }
-.red a {
+.danger a {
   background-color: red;
 }
 
-.skyblue h5, .skyblue .h5, .skyblue h3, .skyblue .h3, .skyblue p, .skyblue [fill=black] {
+.info h5, .info .h5, .info h3, .info .h3, .info p, .info [fill=black] {
   color: skyblue;
   fill: skyblue;
 }
-.skyblue a {
+.info a {
   background-color: skyblue;
 }
 

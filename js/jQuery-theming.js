@@ -1,24 +1,11 @@
 jQuery.noConflict();
 jQuery(document).ready(function($){
-    $("#dark").click(function(){
-        $("body").removeAttr("class");
-        $("body").addClass("dark");
-        
-    }); 
-    $("#primary").click(function(){
-        $("body").removeAttr("class");
-        $("body").addClass("blue");
-    }); 
-    $("#success").click(function(){
-        $("body").removeAttr("class");
-        $("body").addClass("green");
-    }); 
-    $("#danger").click(function(){
-        $("body").removeAttr("class");
-        $("body").addClass("red");
-    }); 
-    $("#info").click(function(){
-        $("body").removeAttr("class");
-        $("body").addClass("skyblue");
-    }); 
+    $("body").addClass("dark"); 
+    $("#btns label").click(function(){
+        $("#btns label").removeClass("active");
+        $(this).addClass("active");
+        let theme = $(".active").find("span").text();
+        $("body").removeClass();
+        $("body").addClass(theme);
+    });
 });
