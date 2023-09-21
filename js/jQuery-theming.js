@@ -1,0 +1,24 @@
+jQuery.noConflict();
+jQuery(document).ready(function($){
+    $("#dark").click(function(){
+        $("body").removeAttr("class");
+        $("body").addClass("dark");
+        
+    }); 
+    $("#primary").click(function(){
+        $("body").removeAttr("class");
+        $("body").addClass("blue");
+    }); 
+    $("#success").click(function(){
+        $("body").removeAttr("class");
+        $("body").addClass("green");
+    }); 
+    $("#danger").click(function(){
+        $("body").removeAttr("class");
+        $("body").addClass("red");
+    }); 
+    $("#info").click(function(){
+        $("body").removeAttr("class");
+        $("body").addClass("skyblue");
+    }); 
+});

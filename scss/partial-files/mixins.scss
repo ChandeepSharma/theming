@@ -1,0 +1,48 @@
+@mixin theme-color($key,$value){
+    #{$key}:$value;
+}
+.dark{
+ h5,h3,p,[fill="black"]{
+    @include theme-color(color,$dark);
+    @include theme-color(fill,$dark);
+ }
+ a{
+    background-color: $dark;
+ }
+}
+.blue{
+ h5,h3,p,[fill="black"]{
+    @include theme-color(color,$primary);
+    @include theme-color(fill,$primary);
+ }
+ a{
+    background-color: $primary;
+ }
+}
+.green{
+ h5,h3,p,[fill="black"]{
+    @include theme-color(color,$success);
+    @include theme-color(fill,$success);
+ }
+ a{
+    background-color: $success;
+ }
+}
+.red{
+ h5,h3,p,[fill="black"]{
+    @include theme-color(color,$danger);
+    @include theme-color(fill,$danger);
+ }
+ a{
+    background-color: $danger;
+ }
+}
+.skyblue{
+ h5,h3,p,[fill="black"]{
+    @include theme-color(color,$info);
+    @include theme-color(fill,$info);
+ }
+ a{
+    background-color: $info;
+ }
+}
